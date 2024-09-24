@@ -179,6 +179,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;api.utilities.extentReportUtilities&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;api.tests.endtoendtest&quot;/&gt;
@@ -225,19 +228,19 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Testcase_1')
 data.setCell(0, 2, 'api.tests.endtoendtest')
-data.setCell(0, 3, 2933);
+data.setCell(0, 3, 2906);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Testcase_3')
+data.setCell(1, 1, 'Testcase_4')
 data.setCell(1, 2, 'api.tests.endtoendtest')
-data.setCell(1, 3, 2168);
+data.setCell(1, 3, 2411);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Testcase_4')
+data.setCell(2, 1, 'Testcase_3')
 data.setCell(2, 2, 'api.tests.endtoendtest')
-data.setCell(2, 3, 2111);
+data.setCell(2, 3, 2138);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Testcase_2')
 data.setCell(3, 2, 'api.tests.endtoendtest')
-data.setCell(3, 3, 1100);
+data.setCell(3, 3, 1086);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -275,19 +278,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Testcase_1</span>
-                <span class="method-start">191 ms</span>
+                <span class="method-start">218 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Testcase_2</span>
-                <span class="method-start">3130 ms</span>
+                <span class="method-start">3139 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Testcase_3</span>
-                <span class="method-start">4235 ms</span>
+                <span class="method-start">4229 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Testcase_4</span>
-                <span class="method-start">6407 ms</span>
+                <span class="method-start">6372 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
